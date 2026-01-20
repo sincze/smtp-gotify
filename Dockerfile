@@ -19,7 +19,7 @@ RUN CGO_ENABLED=0 GOOS=linux go build \
 
 
 
-FROM alpine:3.19
+FROM alpine:3.23.2
 
 
 RUN apk add --no-cache ca-certificates
